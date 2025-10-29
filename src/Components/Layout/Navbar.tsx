@@ -1,10 +1,10 @@
+import { useAuth0 } from '@auth0/auth0-react';
 import React from 'react';
-import { NavLink } from 'react-router';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
-  // Simulate login state (replace with real auth later)
-  const isLoggedIn = false;
-
+  const { isAuthenticated, user, loginWithRedirect, logout, isLoading } = useAuth0();
+console.log({ isLoading, isAuthenticated, user});
   return (
     <div className="navbar bg-base-100 shadow-sm">
       {/* Left: Logo + Mobile Menu */}
@@ -32,10 +32,18 @@ const Navbar = () => {
           >
             <li><a>Home</a></li>
             <li><a>Products</a></li>
-            {isLoggedIn ? (
-              <li><a>Logout</a></li>
+            {isAuthenticated ? (
+              <li>
+                <button
+                  onClick={() => logout({ returnTo: window.location.origin + '/logout'})}
+                >
+                  Logout
+                </button>
+              </li>
             ) : (
-              <li><a>Login</a></li>
+              <li>
+                <button onClick={() => loginWithRedirect()}>Login</button>
+              </li>
             )}
           </ul>
         </div>
@@ -53,12 +61,41 @@ const Navbar = () => {
       {/* Right: Login/Logout + Cart + Avatar */}
       <div className="navbar-end gap-2">
 
-        {/* Conditional Login/Logout Button (desktop only) */}
-        {isLoggedIn ? (
-          <NavLink to="/logout" className="btn btn-ghost hidden lg:flex">Logout</NavLink>
-        ) : (
-          <NavLink to="/login" className="btn btn-ghost hidden lg:flex">Login</NavLink>
+        {/* User Avatar (only if logged in) */}
+        {isAuthenticated && user &&  (
+          <div className="dropdown dropdown-end">
+            <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
+              <div className="w-10 rounded-full">
+                <img
+                  alt="User avatar"
+                  src={user.picture}
+                />
+              </div>
+            </div>
+          </div>
         )}
+
+        {/* Conditional Login/Logout Button (desktop only) */}
+        {isAuthenticated ? (
+          //<NavLink to="/logout" className="btn btn-ghost hidden lg:flex">Logout</NavLink>
+          <button
+            onClick={() => logout({ returnTo: window.location.origin + '/logout'})}
+            className="btn btn-ghost hidden lg:flex"
+          >
+            Logout
+          </button>
+        
+        ) : (
+          <button
+            onClick={() => loginWithRedirect()}
+            className="btn btn-ghost hidden lg:flex"
+          >
+            Login
+          </button>
+         // <NavLink to="/login" className="btn btn-ghost hidden lg:flex">Login</NavLink>
+        )}
+
+        
 
         <NavLink to="/carts" tabIndex={0}  className="btn btn-ghost btn-circle">
           <div className="indicator">
@@ -79,29 +116,8 @@ const Navbar = () => {
             <span className="badge badge-sm indicator-item">8</span>
           </div>
         </NavLink>
-
-
-
-        {/* User Avatar (only if logged in) */}
-        {isLoggedIn && (
-          <div className="dropdown dropdown-end">
-            <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-              <div className="w-10 rounded-full">
-                <img
-                  alt="User avatar"
-                  src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
-                />
-              </div>
-            </div>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
-            >
-
-              <li><a>Logout</a></li>
-            </ul>
-          </div>
-        )}
+        
+        
       </div>
     </div>
   );

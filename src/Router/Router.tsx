@@ -5,7 +5,10 @@ import Shared from "../Shared/Shared";
 import ProductDetails from "../Components/Pages/Product/ProductDetails";
 import Carts from "../Components/Pages/Carts/Carts";
 import Login from "../Components/Authentication/Login";
+import Signup from "../Components/Authentication/signup";
 import Logout from "../Components/Authentication/Logout";
+import PrivateRoute from "./PrivateRoute";
+
 
 const router = createBrowserRouter([
   {
@@ -18,7 +21,9 @@ const router = createBrowserRouter([
       },
       {
         path: "/product",
-        element:  <Product></Product>,
+        element:  <PrivateRoute>
+          <Product></Product>
+          </PrivateRoute>,
       },
       {
         path:"/productdetails/:productId",
@@ -31,6 +36,10 @@ const router = createBrowserRouter([
       {
         path:"/login",
         element:<Login></Login>,
+      },
+      {
+        path:"/signup",
+        element:<Signup></Signup>
       },
       {
         path:"/logout",

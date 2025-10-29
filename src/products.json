@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "category": "Laptop",
+    "name": "Dell Inspiron 15",
+    "price": 85000,
+    "image": "/public/images/laptops/dell-inspiron15.jpg",
+    "size": "15.6 inch",
+    "color": "Silver",
+    "stockAvailability": true
+  },
+  {
+    "id": 2,
+    "category": "Laptop",
+    "name": "HP Pavilion x360",
+    "price": 95000,
+    "image": "/public/images/laptops/hp-pavilion-x360.jpg",
+    "size": "14 inch",
+    "color": "Blue",
+    "stockAvailability": true
+  },
+  {
+    "id": 3,
+    "category": "Laptop",
+    "name": "Asus ZenBook 13",
+    "price": 150000,
+    "image": "/public/images/laptops/asus-zenbook13.jpg",
+    "size": "13.3 inch",
+    "color": "Gray",
+    "stockAvailability": true
+  },
+  {
+    "id": 4,
+    "category": "Laptop",
+    "name": "Lenovo IdeaPad Slim 5",
+    "price": 88000,
+    "image": "/public/images/laptops/lenovo-ideapad-slim5.jpg",
+    "size": "15.6 inch",
+    "color": "Charcoal Black",
+    "stockAvailability": false
+  },
+  {
+    "id": 5,
+    "category": "Laptop",
+    "name": "Apple MacBook Air M2",
+    "price": 135000,
+    "image": "/public/images/laptops/macbook-air-m2.jpg",
+    "size": "13.6 inch",
+    "color": "Midnight",
+    "stockAvailability": true
+  },
+  {
+    "id": 6,
+    "category": "Laptop",
+    "name": "Acer Aspire 5",
+    "price": 78000,
+    "image": "/public/images/laptops/acer-aspire5.jpg",
+    "size": "15.6 inch",
+    "color": "Silver",
+    "stockAvailability": true
+  },
+  {
+    "id": 7,
+    "category": "Laptop",
+    "name": "Microsoft Surface Laptop 5",
+    "price": 120000,
+    "image": "/images/laptops/surface-laptop5.jpg",
+    "size": "13.5 inch",
+    "color": "Black",
+    "stockAvailability": false
+  },
+  {
+    "id": 8,
+    "category": "Laptop",
+    "name": "MSI Modern 14",
+    "price": 94000,
+    "image": "/images/laptops/msi-modern14.jpg",
+    "size": "14 inch",
+    "color": "White",
+    "stockAvailability": true
+  },
+  {
+    "id": 9,
+    "category": "Laptop",
+    "name": "Razer Blade 15",
+    "price": 21000,
+    "image": "/images/laptops/razer-blade15.jpg",
+    "size": "15.6 inch",
+    "color": "Black",
+    "stockAvailability": true
+  },
+  {
+    "id": 10,
+    "category": "Laptop",
+    "name": "Samsung Galaxy Book3 Pro",
+    "price": 160000,
+    "image": "/images/laptops/samsung-galaxybook3.jpg",
+    "size": "14 inch",
+    "color": "Graphite",
+    "stockAvailability": true
+  },
+  {
+    "id": 11,
+    "category": "Mobile",
+    "name": "Apple iPhone 15",
+    "price": 9990,
+    "image": "/images/mobiles/iphone15.jpg",
+    "size": "6.1 inch",
+    "color": "Black",
+    "stockAvailability": true
+  },
+  {
+    "id": 12,
+    "category": "Mobile",
+    "name": "Samsung Galaxy S24",
+    "price": 89000,
+    "image": "/images/mobiles/galaxy-s24.jpg",
+    "size": "6.2 inch",
+    "color": "Gray",
+    "stockAvailability": true
+  },
+  {
+    "id": 13,
+    "category": "Mobile",
+    "name": "Google Pixel 8",
+    "price": 8500,
+    "image": "/images/mobiles/pixel8.jpg",
+    "size": "6.1 inch",
+    "color": "Green",
+    "stockAvailability": false
+  },
+  {
+    "id": 14,
+    "category": "Mobile",
+    "name": "OnePlus 12",
+    "price": 7990,
+    "image": "/images/mobiles/oneplus12.jpg",
+    "size": "6.7 inch",
+    "color": "Silver",
+    "stockAvailability": true
+  },
+  {
+    "id": 15,
+    "category": "Mobile",
+    "name": "Xiaomi 14 Pro",
+    "price": 72000,
+    "image": "/images/mobiles/xiaomi14pro.jpg",
+    "size": "6.73 inch",
+    "color": "Black",
+    "stockAvailability": true
+  },
+  {
+    "id": 16,
+    "category": "Mobile",
+    "name": "Vivo V30",
+    "price": 48000,
+    "image": "/images/mobiles/vivo-v30.jpg",
+    "size": "6.4 inch",
+    "color": "Blue",
+    "stockAvailability": true
+  },
+  {
+    "id": 17,
+    "category": "Mobile",
+    "name": "Oppo Reno 11",
+    "price": 53000,
+    "image": "/images/mobiles/oppo-reno11.jpg",
+    "size": "6.7 inch",
+    "color": "White",
+    "stockAvailability": false
+  },
+  {
+    "id": 18,
+    "category": "Mobile",
+    "name": "Realme GT Neo 6",
+    "price": 42000,
+    "image": "/images/mobiles/realme-gt-neo6.jpg",
+    "size": "6.6 inch",
+    "color": "Purple",
+    "stockAvailability": true
+  },
+  {
+    "id": 19,
+    "category": "Mobile",
+    "name": "Infinix Zero 30",
+    "price": 38000,
+    "image": "/images/mobiles/infinix-zero30.jpg",
+    "size": "6.8 inch",
+    "color": "Gold",
+    "stockAvailability": true
+  },
+  {
+    "id": 20,
+    "category": "Mobile",
+    "name": "Nothing Phone 2",
+    "price": 95000,
+    "image": "/images/mobiles/nothing-phone2.jpg",
+    "size": "6.7 inch",
+    "color": "White",
+    "stockAvailability": true
+  },
+  {
+    "id": 21,
+    "category": "Headphones",
+    "name": "Sony WH-1000XM5",
+    "price": 400,
+    "image": "/images/headphones/sony-wh1000xm5.jpg",
+    "size": "Over-Ear",
+    "color": "Black",
+    "stockAvailability": true
+  },
+  {
+    "id": 22,
+    "category": "Headphones",
+    "name": "Bose QuietComfort 45",
+    "price": 380,
+    "image": "/images/headphones/bose-qc45.jpg",
+    "size": "Over-Ear",
+    "color": "White",
+    "stockAvailability": true
+  },
+  {
+    "id": 23,
+    "category": "Headphones",
+    "name": "Apple AirPods Max",
+    "price": 549,
+    "image": "/images/headphones/airpods-max.jpg",
+    "size": "Over-Ear",
+    "color": "Blue",
+    "stockAvailability": true
+  },
+  {
+    "id": 24,
+    "category": "Headphones",
+    "name": "JBL Live 660NC",
+    "price": 200,
+    "image": "/images/headphones/jbl-live660nc.jpg",
+    "size": "Over-Ear",
+    "color": "Black",
+    "stockAvailability": false
+  },
+  {
+    "id": 25,
+    "category": "Headphones",
+    "name": "Sennheiser HD 450BT",
+    "price": 180,
+    "image": "/images/headphones/sennheiser-hd450bt.jpg",
+    "size": "Over-Ear",
+    "color": "Gray",
+    "stockAvailability": true
+  },
+  {
+    "id": 26,
+    "category": "Headphones",
+    "name": "Anker Soundcore Life Q35",
+    "price": 130,
+    "image": "/images/headphones/anker-life-q35.jpg",
+    "size": "Over-Ear",
+    "color": "Pink",
+    "stockAvailability": true
+  },
+  {
+    "id": 27,
+    "category": "Headphones",
+    "name": "Beats Studio Pro",
+    "price": 350,
+    "image": "/images/headphones/beats-studio-pro.jpg",
+    "size": "Over-Ear",
+    "color": "Brown",
+    "stockAvailability": true
+  },
+  {
+    "id": 28,
+    "category": "Headphones",
+    "name": "Skullcandy Crusher Evo",
+    "price": 200,
+    "image": "/images/headphones/skullcandy-crusher-evo.jpg",
+    "size": "Over-Ear",
+    "color": "Gray",
+    "stockAvailability": false
+  },
+  {
+    "id": 29,
+    "category": "Headphones",
+    "name": "Logitech G Pro X",
+    "price": 250,
+    "image": "/images/headphones/logitech-g-prox.jpg",
+    "size": "Over-Ear",
+    "color": "Black",
+    "stockAvailability": true
+  },
+  {
+    "id": 30,
+    "category": "Headphones",
+    "name": "HyperX Cloud Alpha",
+    "price": 190,
+    "image": "/images/headphones/hyperx-cloud-alpha.jpg",
+    "size": "Over-Ear",
+    "color": "Red",
+    "stockAvailability": true
+  }
+]

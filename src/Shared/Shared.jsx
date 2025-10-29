@@ -7,7 +7,7 @@ const Shared = () => {
         <div>
             <Navbar></Navbar>
             <Outlet></Outlet>
-            <Footer></Footer>
+            
         </div>
     );
 };

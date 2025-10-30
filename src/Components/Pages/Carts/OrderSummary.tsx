@@ -9,7 +9,7 @@ const OrderSummary = () => {
     const total = subtotal + 150;
 
     return (
-        <div className="flex justify-end pr-18"> {/* moves the card to the right */}
+        <div className="flex justify-end pr-18"> 
             <div className="card w-96 bg-black shadow-sm mt-6 mb-6">
                 <div className="card-body">
                     <div className="flex justify-between">

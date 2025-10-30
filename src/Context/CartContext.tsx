@@ -9,7 +9,7 @@ type cartItem = {
     image: string;
     size: string;
     color: string;
-    stockAvailability: boolean;
+    stockAvailability: number;
     count: number;
 }
 
@@ -78,7 +78,7 @@ function cartReducer(state: CartState, action: CartAction): CartState {
                             ? { ...item, count: item.count - 1 }
                             : item
                     )
-                    .filter((item) => item.count > 0), // remove if count reaches 0
+                    .filter((item) => item.count > 0), 
             };
         }
         default:

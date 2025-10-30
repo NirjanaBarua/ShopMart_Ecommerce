@@ -17,19 +17,20 @@ const ProductLists = ({ product }: Products) => {
    
     return (
         <div>
-            <div className="card bg-base-100 w-96 shadow-sm">
+            
+            <div className="card bg-base-100 w-full shadow-sm transition-transform duration-300 hover:shadow-lg">
                 <figure>
                     <img
-                        className='w-full h-64'
+                        className='w-full h-64  object-cover transition-transform duration-300 group-hover:scale-105'
                         src={product.image}
                         alt="Shoes" />
                 </figure>
-                <div className="card-body">
+                <div className="card-body bg-gray-200">
                     <h2 className="card-title">{product.name}</h2>
                     <h3 className='font-semibold'>Price: {product.price} ৳</h3>
 
                     <div className="card-actions justify-end">
-                        <button onClick={handleViewDetails} className="btn btn-primary">View Details</button>
+                        <button onClick={handleViewDetails} className="btn btn-active btn-success text-white">View Details</button>
                     </div>
                 </div>
             </div>

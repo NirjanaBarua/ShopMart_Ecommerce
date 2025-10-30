@@ -7,7 +7,29 @@
     "image": "/public/images/laptops/dell-inspiron15.jpg",
     "size": "15.6 inch",
     "color": "Silver",
-    "stockAvailability": true
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "stockAvailability": 7,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Arif Hasan",
+        "rating": 5,
+        "comment": "Excellent product! Very reliable."
+      },
+      {
+        "id": 2,
+        "name": "Shahida Akter",
+        "rating": 4,
+        "comment": "Good value, battery could last longer."
+      },
+      {
+        "id": 3,
+        "name": "Tanvir Ahmed",
+        "rating": 4,
+        "comment": "Fast and smooth performance for daily tasks."
+      }
+    ]
   },
   {
     "id": 2,
@@ -17,7 +39,29 @@
     "image": "/public/images/laptops/hp-pavilion-x360.jpg",
     "size": "14 inch",
     "color": "Blue",
-    "stockAvailability": true
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "stockAvailability": 4,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Nusrat Jahan",
+        "rating": 5,
+        "comment": "Very stylish and versatile laptop."
+      },
+      {
+        "id": 2,
+        "name": "Rafiq Islam",
+        "rating": 4,
+        "comment": "Screen is excellent but could be brighter."
+      },
+      {
+        "id": 3,
+        "name": "Mina Akhter",
+        "rating": 4,
+        "comment": "Smooth multitasking experience."
+      }
+    ]
   },
   {
     "id": 3,
@@ -27,7 +71,29 @@
     "image": "/public/images/laptops/asus-zenbook13.jpg",
     "size": "13.3 inch",
     "color": "Gray",
-    "stockAvailability": true
+    "ram": "16GB",
+    "storage": "1TB SSD",
+    "stockAvailability": 10,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Sabbir Khan",
+        "rating": 5,
+        "comment": "Super light and perfect for travel."
+      },
+      {
+        "id": 2,
+        "name": "Fatema Begum",
+        "rating": 5,
+        "comment": "Battery lasts all day, very satisfied!"
+      },
+      {
+        "id": 3,
+        "name": "Irfan Hossain",
+        "rating": 4,
+        "comment": "Sleek design but a bit expensive."
+      }
+    ]
   },
   {
     "id": 4,
@@ -37,7 +103,29 @@
     "image": "/public/images/laptops/lenovo-ideapad-slim5.jpg",
     "size": "15.6 inch",
     "color": "Charcoal Black",
-    "stockAvailability": false
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "stockAvailability": 3,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Rokeya Sultana",
+        "rating": 4,
+        "comment": "Good performance for office tasks."
+      },
+      {
+        "id": 2,
+        "name": "Shuvo Roy",
+        "rating": 3,
+        "comment": "Build quality is okay, average laptop."
+      },
+      {
+        "id": 3,
+        "name": "Jannatul Ferdous",
+        "rating": 5,
+        "comment": "Fast SSD and decent RAM, very happy."
+      }
+    ]
   },
   {
     "id": 5,
@@ -47,7 +135,29 @@
     "image": "/public/images/laptops/macbook-air-m2.jpg",
     "size": "13.6 inch",
     "color": "Midnight",
-    "stockAvailability": true
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "stockAvailability": 6,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Anika Rahman",
+        "rating": 5,
+        "comment": "Amazing battery life and lightweight design."
+      },
+      {
+        "id": 2,
+        "name": "Fahad Alam",
+        "rating": 5,
+        "comment": "Perfect for creative work and coding."
+      },
+      {
+        "id": 3,
+        "name": "Sabina Akhter",
+        "rating": 4,
+        "comment": "Expensive but worth every penny."
+      }
+    ]
   },
   {
     "id": 6,
@@ -57,246 +167,476 @@
     "image": "/public/images/laptops/acer-aspire5.jpg",
     "size": "15.6 inch",
     "color": "Silver",
-    "stockAvailability": true
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "stockAvailability": 5,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Mahmudul Hasan",
+        "rating": 4,
+        "comment": "Good laptop for daily use."
+      },
+      {
+        "id": 2,
+        "name": "Rina Akhter",
+        "rating": 3,
+        "comment": "Average display quality."
+      },
+      {
+        "id": 3,
+        "name": "Jahid Islam",
+        "rating": 4,
+        "comment": "Value for money and reliable."
+      }
+    ]
   },
   {
     "id": 7,
     "category": "Laptop",
     "name": "Microsoft Surface Laptop 5",
     "price": 120000,
-    "image": "/images/laptops/surface-laptop5.jpg",
+    "image": "/public/images/laptops/Microsoft Surface Laptop 5.jpg",
     "size": "13.5 inch",
     "color": "Black",
-    "stockAvailability": false
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "stockAvailability": 8,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Taslima Begum",
+        "rating": 5,
+        "comment": "Smooth experience and elegant design."
+      },
+      {
+        "id": 2,
+        "name": "Rashed Khan",
+        "rating": 4,
+        "comment": "A bit pricey but excellent build quality."
+      },
+      {
+        "id": 3,
+        "name": "Nazia Sultana",
+        "rating": 5,
+        "comment": "Keyboard and touchpad are amazing."
+      }
+    ]
   },
   {
     "id": 8,
     "category": "Laptop",
     "name": "MSI Modern 14",
     "price": 94000,
-    "image": "/images/laptops/msi-modern14.jpg",
+    "image": "/public/images/laptops/MSI Modern 14.jpg",
     "size": "14 inch",
     "color": "White",
-    "stockAvailability": true
+    "ram": "16GB",
+    "storage": "1TB SSD",
+    "stockAvailability": 9,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Fahim Rahman",
+        "rating": 5,
+        "comment": "Excellent for multitasking and gaming."
+      },
+      {
+        "id": 2,
+        "name": "Ritu Parvin",
+        "rating": 4,
+        "comment": "Good screen quality, fast SSD."
+      },
+      {
+        "id": 3,
+        "name": "Samiul Alam",
+        "rating": 4,
+        "comment": "Lightweight and portable."
+      }
+    ]
   },
   {
     "id": 9,
     "category": "Laptop",
     "name": "Razer Blade 15",
-    "price": 21000,
-    "image": "/images/laptops/razer-blade15.jpg",
+    "price": 210000,
+    "image": "/public/images/laptops/Razer Blade 15.jpg",
     "size": "15.6 inch",
     "color": "Black",
-    "stockAvailability": true
+    "ram": "32GB",
+    "storage": "1TB SSD",
+    "stockAvailability": 4,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Rakib Hossain",
+        "rating": 5,
+        "comment": "Perfect for gaming, amazing performance."
+      },
+      {
+        "id": 2,
+        "name": "Shumi Akter",
+        "rating": 5,
+        "comment": "Build quality and design are superb."
+      },
+      {
+        "id": 3,
+        "name": "Tanvir Rahman",
+        "rating": 4,
+        "comment": "A bit heavy but very powerful."
+      }
+    ]
   },
   {
     "id": 10,
     "category": "Laptop",
     "name": "Samsung Galaxy Book3 Pro",
     "price": 160000,
-    "image": "/images/laptops/samsung-galaxybook3.jpg",
+    "image": "/public/images/laptops/Samsung Galaxy Book3 Pro.jpg",
     "size": "14 inch",
     "color": "Graphite",
-    "stockAvailability": true
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "stockAvailability": 11,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Nabila Karim",
+        "rating": 5,
+        "comment": "Excellent for work and media consumption."
+      },
+      {
+        "id": 2,
+        "name": "Sabbir Rahman",
+        "rating": 4,
+        "comment": "Stylish design and good screen."
+      },
+      {
+        "id": 3,
+        "name": "Roksana Sultana",
+        "rating": 5,
+        "comment": "Battery life is impressive."
+      }
+    ]
   },
   {
     "id": 11,
     "category": "Mobile",
     "name": "Apple iPhone 15",
-    "price": 9990,
-    "image": "/images/mobiles/iphone15.jpg",
+    "price": 99900,
+    "image": "/public/images/mobiles/Apple iPhone 15.jpg",
     "size": "6.1 inch",
     "color": "Black",
-    "stockAvailability": true
+    "ram": "6GB",
+    "storage": "128GB",
+    "stockAvailability": 12,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Tahsin Ahmed",
+        "rating": 5,
+        "comment": "Excellent camera and smooth performance."
+      },
+      {
+        "id": 2,
+        "name": "Meherunnisa",
+        "rating": 5,
+        "comment": "Battery lasts long, very satisfied."
+      },
+      {
+        "id": 3,
+        "name": "Raihan Khan",
+        "rating": 4,
+        "comment": "Screen is sharp, but a bit expensive."
+      }
+    ]
   },
   {
     "id": 12,
     "category": "Mobile",
     "name": "Samsung Galaxy S24",
     "price": 89000,
-    "image": "/images/mobiles/galaxy-s24.jpg",
+    "image": "/public/images/mobiles/Samsung Galaxy S24.jpg",
     "size": "6.2 inch",
     "color": "Gray",
-    "stockAvailability": true
+    "ram": "8GB",
+    "storage": "256GB",
+    "stockAvailability": 7,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Shahriar Alam",
+        "rating": 4,
+        "comment": "Good camera and battery life."
+      },
+      {
+        "id": 2,
+        "name": "Nusrat Jahan",
+        "rating": 4,
+        "comment": "Fast performance, nice screen."
+      },
+      {
+        "id": 3,
+        "name": "Fahim Khan",
+        "rating": 3,
+        "comment": "Average design, could be better."
+      }
+    ]
   },
-  {
+{
     "id": 13,
     "category": "Mobile",
     "name": "Google Pixel 8",
-    "price": 8500,
-    "image": "/images/mobiles/pixel8.jpg",
+    "price": 85000,
+    "image": "/public/images/mobiles/Google Pixel 8.jpg",
     "size": "6.1 inch",
     "color": "Green",
-    "stockAvailability": false
+    "ram": "8GB",
+    "storage": "256GB",
+    "stockAvailability": 4,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Sadia Islam",
+        "rating": 5,
+        "comment": "Camera quality is amazing!"
+      },
+      {
+        "id": 2,
+        "name": "Jahid Hasan",
+        "rating": 4,
+        "comment": "Very smooth performance."
+      },
+      {
+        "id": 3,
+        "name": "Rina Chowdhury",
+        "rating": 4,
+        "comment": "Battery could be a bit better."
+      }
+    ]
   },
   {
     "id": 14,
     "category": "Mobile",
     "name": "OnePlus 12",
-    "price": 7990,
-    "image": "/images/mobiles/oneplus12.jpg",
+    "price": 79900,
+    "image": "/public/images/mobiles/OnePlus 12.jpg",
     "size": "6.7 inch",
     "color": "Silver",
-    "stockAvailability": true
+    "ram": "12GB",
+    "storage": "256GB",
+    "stockAvailability": 5,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Rashed Ali",
+        "rating": 5,
+        "comment": "Very fast and responsive!"
+      },
+      {
+        "id": 2,
+        "name": "Fariha Akter",
+        "rating": 4,
+        "comment": "Great display and design."
+      },
+      {
+        "id": 3,
+        "name": "Tanvir Hossain",
+        "rating": 4,
+        "comment": "Battery life is decent."
+      }
+    ]
   },
   {
     "id": 15,
     "category": "Mobile",
     "name": "Xiaomi 14 Pro",
     "price": 72000,
-    "image": "/images/mobiles/xiaomi14pro.jpg",
+    "image": "/public/images/mobiles/Xiaomi 14 Pro.jpg",
     "size": "6.73 inch",
     "color": "Black",
-    "stockAvailability": true
+    "ram": "12GB",
+    "storage": "512GB",
+    "stockAvailability": 6,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Shamim Reza",
+        "rating": 5,
+        "comment": "Excellent phone for its price."
+      },
+      {
+        "id": 2,
+        "name": "Nazia Sultana",
+        "rating": 4,
+        "comment": "Camera is good, but software needs improvement."
+      },
+      {
+        "id": 3,
+        "name": "Arifur Rahman",
+        "rating": 4,
+        "comment": "Great storage and fast RAM."
+      }
+    ]
   },
   {
     "id": 16,
     "category": "Mobile",
     "name": "Vivo V30",
     "price": 48000,
-    "image": "/images/mobiles/vivo-v30.jpg",
+    "image": "/public/images/mobiles/Vivo V30.jpg",
     "size": "6.4 inch",
     "color": "Blue",
-    "stockAvailability": true
+    "ram": "8GB",
+    "storage": "128GB",
+    "stockAvailability": 9,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Mahi Chowdhury",
+        "rating": 4,
+        "comment": "Good phone for daily use."
+      },
+      {
+        "id": 2,
+        "name": "Fahad Hossain",
+        "rating": 3,
+        "comment": "Average camera but okay performance."
+      },
+      {
+        "id": 3,
+        "name": "Shabnam Akhter",
+        "rating": 4,
+        "comment": "Battery lasts all day."
+      }
+    ]
   },
   {
     "id": 17,
     "category": "Mobile",
     "name": "Oppo Reno 11",
     "price": 53000,
-    "image": "/images/mobiles/oppo-reno11.jpg",
+    "image": "/public/images/mobiles/Oppo Reno 11.jpg",
     "size": "6.7 inch",
     "color": "White",
-    "stockAvailability": false
+    "ram": "12GB",
+    "storage": "256GB",
+    "stockAvailability": 3,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Rokeya Sultana",
+        "rating": 4,
+        "comment": "Very sleek design and good RAM."
+      },
+      {
+        "id": 2,
+        "name": "Jahid Alam",
+        "rating": 3,
+        "comment": "Camera is okay, could be better."
+      },
+      {
+        "id": 3,
+        "name": "Samiha Rahman",
+        "rating": 5,
+        "comment": "Very smooth performance, fast phone."
+      }
+    ]
   },
   {
     "id": 18,
     "category": "Mobile",
     "name": "Realme GT Neo 6",
     "price": 42000,
-    "image": "/images/mobiles/realme-gt-neo6.jpg",
+    "image": "/public/images/mobiles/Realme GT Neo 6.jpg",
     "size": "6.6 inch",
     "color": "Purple",
-    "stockAvailability": true
+    "ram": "8GB",
+    "storage": "256GB",
+    "stockAvailability": 8,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Tahsin Rahman",
+        "rating": 4,
+        "comment": "Nice gaming phone for budget users."
+      },
+      {
+        "id": 2,
+        "name": "Rita Akhter",
+        "rating": 4,
+        "comment": "Fast charging and good display."
+      },
+      {
+        "id": 3,
+        "name": "Shafiq Islam",
+        "rating": 3,
+        "comment": "Average camera, but okay overall."
+      }
+    ]
   },
   {
     "id": 19,
     "category": "Mobile",
     "name": "Infinix Zero 30",
     "price": 38000,
-    "image": "/images/mobiles/infinix-zero30.jpg",
+    "image": "/public/images/mobiles/Infinix Zero 30.jpg",
     "size": "6.8 inch",
     "color": "Gold",
-    "stockAvailability": true
+    "ram": "12GB",
+    "storage": "256GB",
+    "stockAvailability": 10,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Sabbir Ahmed",
+        "rating": 4,
+        "comment": "Very good value for money."
+      },
+      {
+        "id": 2,
+        "name": "Nusrat Chowdhury",
+        "rating": 3,
+        "comment": "Average camera but fast processor."
+      },
+      {
+        "id": 3,
+        "name": "Fahim Rahman",
+        "rating": 4,
+        "comment": "Good design and decent battery life."
+      }
+    ]
   },
   {
     "id": 20,
     "category": "Mobile",
     "name": "Nothing Phone 2",
     "price": 95000,
-    "image": "/images/mobiles/nothing-phone2.jpg",
+    "image": "/public/images/mobiles/Nothing Phone 2.jpg",
     "size": "6.7 inch",
     "color": "White",
-    "stockAvailability": true
-  },
-  {
-    "id": 21,
-    "category": "Headphones",
-    "name": "Sony WH-1000XM5",
-    "price": 400,
-    "image": "/images/headphones/sony-wh1000xm5.jpg",
-    "size": "Over-Ear",
-    "color": "Black",
-    "stockAvailability": true
-  },
-  {
-    "id": 22,
-    "category": "Headphones",
-    "name": "Bose QuietComfort 45",
-    "price": 380,
-    "image": "/images/headphones/bose-qc45.jpg",
-    "size": "Over-Ear",
-    "color": "White",
-    "stockAvailability": true
-  },
-  {
-    "id": 23,
-    "category": "Headphones",
-    "name": "Apple AirPods Max",
-    "price": 549,
-    "image": "/images/headphones/airpods-max.jpg",
-    "size": "Over-Ear",
-    "color": "Blue",
-    "stockAvailability": true
-  },
-  {
-    "id": 24,
-    "category": "Headphones",
-    "name": "JBL Live 660NC",
-    "price": 200,
-    "image": "/images/headphones/jbl-live660nc.jpg",
-    "size": "Over-Ear",
-    "color": "Black",
-    "stockAvailability": false
-  },
-  {
-    "id": 25,
-    "category": "Headphones",
-    "name": "Sennheiser HD 450BT",
-    "price": 180,
-    "image": "/images/headphones/sennheiser-hd450bt.jpg",
-    "size": "Over-Ear",
-    "color": "Gray",
-    "stockAvailability": true
-  },
-  {
-    "id": 26,
-    "category": "Headphones",
-    "name": "Anker Soundcore Life Q35",
-    "price": 130,
-    "image": "/images/headphones/anker-life-q35.jpg",
-    "size": "Over-Ear",
-    "color": "Pink",
-    "stockAvailability": true
-  },
-  {
-    "id": 27,
-    "category": "Headphones",
-    "name": "Beats Studio Pro",
-    "price": 350,
-    "image": "/images/headphones/beats-studio-pro.jpg",
-    "size": "Over-Ear",
-    "color": "Brown",
-    "stockAvailability": true
-  },
-  {
-    "id": 28,
-    "category": "Headphones",
-    "name": "Skullcandy Crusher Evo",
-    "price": 200,
-    "image": "/images/headphones/skullcandy-crusher-evo.jpg",
-    "size": "Over-Ear",
-    "color": "Gray",
-    "stockAvailability": false
-  },
-  {
-    "id": 29,
-    "category": "Headphones",
-    "name": "Logitech G Pro X",
-    "price": 250,
-    "image": "/images/headphones/logitech-g-prox.jpg",
-    "size": "Over-Ear",
-    "color": "Black",
-    "stockAvailability": true
-  },
-  {
-    "id": 30,
-    "category": "Headphones",
-    "name": "HyperX Cloud Alpha",
-    "price": 190,
-    "image": "/images/headphones/hyperx-cloud-alpha.jpg",
-    "size": "Over-Ear",
-    "color": "Red",
-    "stockAvailability": true
+    "ram": "12GB",
+    "storage": "512GB",
+    "stockAvailability": 5,
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Rokib Hasan",
+        "rating": 5,
+        "comment": "Unique design and excellent display."
+      },
+      {
+        "id": 2,
+        "name": "Sadia Parvin",
+        "rating": 4,
+        "comment": "Battery life is good and fast performance."
+      },
+      {
+        "id": 3,
+        "name": "Arif Chowdhury",
+        "rating": 5,
+        "comment": "Really smooth and premium feel."
+      }
+    ]
   }
 ]

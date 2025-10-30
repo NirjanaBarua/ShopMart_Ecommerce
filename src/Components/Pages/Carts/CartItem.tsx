@@ -10,6 +10,9 @@ const CartItem = () => {
     
     const { cart } = state;
 
+     const cartTotal = cart.length;
+    console.log(cartTotal);
+
     return (
         <div >
             {
